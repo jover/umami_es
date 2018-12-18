@@ -1,0 +1,6 @@
+name: 'Umami Elasticsearch Helper - ReactiveSearch'
+description: 'ReactiveSearch app as an extenstion of Umami Elasticsearch Helper module.'
+type: module
+core: 8.x
+dependencies:
+  - umami_es

@@ -1,0 +1,6 @@
+services:
+  umami_es.normalizer.node_recipe_normalizer:
+    class: Drupal\umami_es\Plugin\Normalizer\NodeRecipeNormalizer
+    tags:
+      - { name: normalizer, priority: 50 }
+    arguments: ['@entity.manager']
