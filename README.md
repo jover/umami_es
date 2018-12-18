@@ -13,14 +13,27 @@ To make the connection to an ElasticSearch server, this module relies on [Elasti
 
 Enable this module using the standard Drupal way.
 
-## Indexing
+## Usage
+
+### Indexing
 
 ```bash
-drush elasticsearch:helper:setup
-drush elasticsearch:helper:reindex
+$ drush elasticsearch:helper:setup
+$ drush elasticsearch:helper:reindex
 ```
 
-## Help
+### ReactiveSearch
+
+In order to try out the ReactiveSearch app:
+```bash
+$ cd [PATH-TO-MODULE]/modules/umami_es_rs/app
+$ npm install
+$ yarn start
+```
+
+More information about ReactiveSearch and their UI Components, visit their [documentation](https://opensource.appbase.io/reactive-manual/).
+
+## Troubleshooting
 
 ### ElasticSearch - CORS
 
